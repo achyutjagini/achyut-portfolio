@@ -1,0 +1,110 @@
+/* ===== Base Reset ===== */
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: #f4f6f8;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+/* ===== Layout ===== */
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 60px 24px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: linear-gradient(135deg, #111827, #1f2933);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.header p {
+  margin: 8px 0;
+  color: #d1d5db;
+}
+
+.header a {
+  color: #60a5fa;
+  font-weight: 500;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Section Titles ===== */
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px 28px;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* ===== Lists ===== */
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ===== Links ===== */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer Contact ===== */
+section:last-of-type {
+  padding-bottom: 80px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 640px) {
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  section {
+    padding: 40px 20px;
+  }
+}
