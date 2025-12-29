@@ -3,14 +3,15 @@ export default function Projects() {
     <section>
       <h2>Key Projects</h2>
 
-        <div className="card">
-        <h3>Machine Learning for Crime Classification</h3>
-        <ul>
-          <li>Spark Streaming pipeline for real-time inference</li>
-          <li>ML models: Logistic Regression, Random Forest</li>
-          <li>Optimized classification accuracy on large-scale datasets</li>
-        </ul>
-      </div>
+      <div className="card">
+  <h3>Machine Learning with Spark Streaming for Crime Classification</h3>
+  <ul>
+    <li>Developed a real-time Spark Streaming pipeline for crime data classification.</li>
+    <li>Implemented ML models including Logistic Regression, Naïve Bayes, and Random Forest for predictive analytics.</li>
+    <li>Managed classification of crime categories as target variables and optimized model performance on large-scale datasets.</li>
+  </ul>
+</div>
+
 
       <div className="card">
         <h3>Kafka-Based Crime Data Analysis Platform</h3>
