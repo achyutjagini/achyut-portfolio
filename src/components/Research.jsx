@@ -8,7 +8,7 @@ export default function Research() {
         <ul>
           <li>ML models: Logistic Regression, Random Forest, CatBoost</li>
           <li>Explainability: SHAP, LIME</li>
-          <li>Dockerized and deployed on AWS EC2</li>
+          <li>Improved upon current state-of-the-art models for better churn prediction accuracy</li>
         </ul>
       </div>
 
