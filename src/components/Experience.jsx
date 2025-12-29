@@ -7,15 +7,21 @@ export default function Experience() {
         <p>Jan 2023 – Jul 2023</p>
         <ul>
           <li>
-            Built a Flask-based internal web application integrating a Siamese
-            Neural Network for duplicate JIRA defect detection.
+            Developed a <strong>Flask-based internal web application</strong> leveraging a
+            <strong> Siamese Neural Network</strong> to detect and manage duplicate JIRA defect tickets.
           </li>
           <li>
-            Integrated Pinecone as a vector database for embedding-based
-            similarity search.
+            Integrated <strong>Pinecone vector database</strong> for embedding-based similarity search,
+            enabling faster and more accurate ticket matching.
           </li>
-          <li>Designed REST APIs, reducing manual triage time by ~50%.</li>
-          <li>Applied CI/CD, version control, and API testing best practices.</li>
+          <li>
+            Designed and implemented <strong>RESTful APIs</strong>, streamlining workflows and reducing
+            manual triage time by ~50%.
+          </li>
+          <li>
+            Applied <strong>CI/CD, version control, and API testing best practices</strong> to ensure
+            production-ready, maintainable software.
+          </li>
         </ul>
       </div>
     </section>
