@@ -9,7 +9,7 @@ export default function Research() {
     <li>Developed a machine learning-based predictive model to identify churning customers.</li>
     <li>Improved the performance of state-of-the-art customer churn prediction algorithms on the Telco Customer Churn dataset.</li>
     <li>Implemented and compared multiple algorithms including Logistic Regression, Random Forest, AdaBoost, Gradient Boosting, and CatBoost.</li>
-    <li>Applied thorough explainability techniques to provide reasoning behind model predictions.</li>
+    <li>Applied SHAP and LIME explainability techniques to provide reasoning behind model predictions.</li>
   </ul>
 </div>
 
