@@ -8,7 +8,7 @@ export default function Projects() {
   <ul>
     <li>Developed a real-time Spark Streaming pipeline for crime data classification.</li>
     <li>Implemented ML models including Logistic Regression, Naïve Bayes, and Random Forest for predictive analytics.</li>
-    <li>Managed classification of crime categories as target variables and optimized model performance on large-scale datasets.</li>
+    <li>Managed classification of crime categories as the target variable and optimized model performance on the San Francisco Crime dataset.</li>
   </ul>
 </div>
 
