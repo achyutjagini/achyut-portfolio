@@ -14,12 +14,16 @@ export default function Research() {
 </div>
 
 
-      <div className="card">
-        <h3>IEEE Publication — Bitcoin Price Prediction</h3>
-        <a href="https://ieeexplore.ieee.org/document/10127661">
-          View on IEEE Xplore
-        </a>
-      </div>
+  <div className="card">
+  <h3>IEEE Publication — Twitter Sentiment Analysis for Bitcoin Price Prediction</h3>
+  <ul>
+    <li>Designed and implemented a machine learning model to analyze Twitter sentiment for Bitcoin price prediction.</li>
+    <li>Applied natural language processing (NLP) techniques for sentiment classification.</li>
+    <li>Integrated sentiment scores with historical Bitcoin prices to improve prediction accuracy.</li>
+    <li>Published in IEEE Xplore: <a href="https://ieeexplore.ieee.org/document/10127661" target="_blank" rel="noopener noreferrer">View Publication</a></li>
+  </ul>
+</div>
+
     </section>
   );
 }
