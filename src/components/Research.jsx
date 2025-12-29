@@ -3,14 +3,16 @@ export default function Research() {
     <section>
       <h2>Research & Thesis</h2>
 
-      <div className="card">
-        <h3>Master’s Thesis — Customer Churn Prediction</h3>
-        <ul>
-          <li>ML models: Logistic Regression, Random Forest, CatBoost</li>
-          <li>Explainability: SHAP, LIME</li>
-          <li>Improved upon current state-of-the-art models for better churn prediction accuracy</li>
-        </ul>
-      </div>
+<div className="card">
+  <h3>Master’s Thesis — Customer Churn Prediction</h3>
+  <ul>
+    <li>Developed a machine learning-based predictive model to identify churning customers.</li>
+    <li>Improved the performance of state-of-the-art customer churn prediction algorithms on the Telco Customer Churn dataset.</li>
+    <li>Implemented and compared multiple algorithms including Logistic Regression, Random Forest, AdaBoost, Gradient Boosting, and CatBoost.</li>
+    <li>Applied thorough explainability techniques to provide reasoning behind model predictions.</li>
+  </ul>
+</div>
+
 
       <div className="card">
         <h3>IEEE Publication — Bitcoin Price Prediction</h3>
