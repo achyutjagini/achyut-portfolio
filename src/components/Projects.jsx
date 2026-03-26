@@ -4,6 +4,17 @@ export default function Projects() {
       <h2>Key Projects</h2>
 
       <div className="card">
+        <h3>Twiga – AI WhatsApp Bot for Tanzanian Educators</h3>
+        <ul>
+          <li>Contributed to an open-source WhatsApp chatbot built for Tanzanian teachers, awarded the Meta Llama Impact Grant Innovation Award 2024.</li>
+          <li>Implemented features using retrieval-augmented generation (RAG) with open-source LLMs to help educators generate exams, write lesson plans, and search curriculum content.</li>
+          <li>Built on a FastAPI backend with PostgreSQL (Neon), Redis, and Docker; integrated Prometheus and Grafana for monitoring LLM performance and WhatsApp webhook metrics.</li>
+          <li>Collaborated with the Tanzania AI Community and open-source contributors to advance AI-powered education tools for social good.</li>
+        </ul>
+        <a href="https://github.com/achyutjagini/twiga" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+
+      <div className="card">
   <h3>Machine Learning with Spark Streaming for Crime Classification</h3>
   <ul>
     <li>Developed a real-time Spark Streaming pipeline for crime data classification.</li>
